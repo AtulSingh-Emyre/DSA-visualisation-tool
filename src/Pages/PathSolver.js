@@ -54,6 +54,9 @@ const Pathsolver = () => {
         if(selectionCase !== applicationStates.wallSelection) setSelectionCase(applicationStates.wallSelection);
     }
 
+
+    
+
     const onDragOverElementHandler = (e,R,C) => {
         if(selectionCase === applicationStates.wallSelection)
         onAddGridWall(R,C);
